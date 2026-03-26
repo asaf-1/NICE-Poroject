@@ -209,8 +209,6 @@ The framework is configured to produce:
 - video on failure
 - trace on first retry
 
-These are enough for local debugging and CI artifact retention without introducing extra tooling too early.
-
 ### CI Implementation
 
 A GitHub Actions workflow is included at [`.github/workflows/playwright.yml`](/c:/Users/asafn/Desktop/NICE-Project/.github/workflows/playwright.yml).
