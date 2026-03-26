@@ -170,6 +170,14 @@ Supported keys:
 - Add multi-browser projects and an environment matrix in CI.
 - Add contract/schema validation and richer observability around API failures.
 
+## Future Plans
+
+- Add explicit contract validation against the ParaBank OpenAPI/Swagger specification.
+- Expand the negative coverage with more business edge cases around transfers, account creation, and invalid inputs.
+- Add Jenkins pipeline support alongside GitHub Actions for teams that standardize on Jenkins.
+- Extend browser coverage beyond Chromium when execution time and maintenance budget allow.
+- Introduce richer test tagging and suite segmentation for smoke, regression, and API-focused runs.
+
 ## Infrastructure Considerations
 
 ### Project Architecture
