@@ -341,6 +341,23 @@ To avoid repeating the same setup in every test file and to make the suite easie
 
 Because that creates duplication and makes the framework harder to maintain. UI, API, assertions, fixtures, and config have different responsibilities.
 
+### Why did you create a separate `assertions` folder?
+
+Because assertion logic is also reusable logic, not just inline test code.
+
+Keeping assertions in a separate folder helps:
+
+- reuse the same validation rules across multiple tests
+- keep test files shorter and more business-focused
+- avoid repeating response-shape and balance-validation code
+- centralize domain validation rules in one place
+
+In this repository, the `assertions` layer is where shared banking validations live, so tests can say what they are checking without re-implementing the checking logic each time.
+
+### Short Interview Answer
+
+I separated assertions because validation rules are part of the framework, not only part of one test. This keeps tests readable and makes shared checks easier to maintain.
+
 ### Why use UI and API together?
 
 UI validates the user journey. API validates data and backend state more directly and more efficiently.
