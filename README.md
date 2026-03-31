@@ -1,4 +1,4 @@
-# ParaBank Playwright Home Assignment
+# ParaBank Playwright Architecture Project 
 
 Production-ready Playwright framework that validates the ParaBank core banking flow across UI, API, and `curl`.
 
