@@ -2,6 +2,10 @@
 
 Production-ready Playwright framework that validates the ParaBank core banking flow across UI, API, and `curl`.
 
+Additional documentation:
+
+- [README_INTERVIEW_GUIDE.md](/c:/Users/asafn/Desktop/NICE-Project/README_INTERVIEW_GUIDE.md) explains the main Playwright concepts used in this repository, common interview questions, and how an enterprise automation lead would approach the framework.
+
 ## What is Covered
 
 Happy path:
